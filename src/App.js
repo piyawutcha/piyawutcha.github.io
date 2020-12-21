@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Profile from './containers/Profile/Profile';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h3>Piyawut Chantasrisawat</h3>
-        </header>
+        <Profile/>
       </div>
     );
   }

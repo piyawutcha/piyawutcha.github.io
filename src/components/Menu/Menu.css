@@ -1,0 +1,7 @@
+.menu {
+  z-index: 1000;
+  color: #000;
+  position: fixed;
+  top: 20px;
+  left: 50px;
+}
