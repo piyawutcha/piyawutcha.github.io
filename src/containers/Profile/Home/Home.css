@@ -14,8 +14,6 @@
   background-color: #ffffff;
   width: 200px;
   height: 200px;
-  /* width: calc(200px + 2vmin);
-  height: calc(200px + 2vmin); */
   border: 8px solid green;
   border-radius: 50%;
 }
