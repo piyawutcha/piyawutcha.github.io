@@ -1,6 +1,13 @@
 .education {
-  background-color: #823123;
-  display: flex;
+  background-color: #fff;
+  display: flow-root;
   align-items: center;
   justify-content: center;
+  padding: 16px;
+}
+
+.school_container {
+  display: inline-flex;
+  flex-direction: column;
+  margin: auto;
 }
