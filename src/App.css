@@ -1,3 +1,14 @@
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  overflow: auto;
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
