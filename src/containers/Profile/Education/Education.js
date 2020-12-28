@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Education.css';
 import School from '../../../components/School/School';
 import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
 
 class Education extends Component {
   state = {
@@ -32,9 +33,13 @@ class Education extends Component {
 
     return (
       <div className="education">
-        <Typography variant="h2">Education</Typography>
-        <div class="school_container">
-          {schools}
+        <div className="school_container">
+          <Grid container>
+            <Grid item xs={12} sm={12}>
+            <Typography variant="h2">Education</Typography>
+            {schools}
+            </Grid>
+          </Grid>
         </div>
       </div>
     )
