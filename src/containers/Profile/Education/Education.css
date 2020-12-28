@@ -1,13 +1,24 @@
 .education {
   background-color: #fff;
-  display: flow-root;
+  display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
 }
 
 .school_container {
-  display: inline-flex;
-  flex-direction: column;
-  margin: auto;
+  padding: 24px 48px;
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  .school_container {
+    width: 1024px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .school_container {
+    padding: 24px 16px;
+    width: 100%;
+  }
 }

@@ -1,9 +1,10 @@
 import React from 'react';
 import './AboutMe.css';
+import AboutMeDetail from '../../../components/AboutMeDetail/AboutMeDetail';
 
 const about_me = () => (
   <div className="about_me">
-    <h3>About Me</h3>
+    <AboutMeDetail />
   </div>
 );
 

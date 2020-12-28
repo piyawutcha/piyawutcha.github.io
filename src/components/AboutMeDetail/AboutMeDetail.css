@@ -1,0 +1,16 @@
+.detail {
+  padding: 24px 48px;
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  .detail {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .detail {
+    padding: 24px 16px;
+  }
+}
