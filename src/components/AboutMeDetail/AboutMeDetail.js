@@ -6,7 +6,7 @@ import about_me_img from '../../assets/aboutme.jpg';
 
 const about_me_detail = () => (
   <div className="detail">
-    <Grid container>
+    <Grid container spacing={4}>
       <Grid item xs={12} sm={6}>
         <Typography variant="h2" gutterBottom>About Me</Typography>
         <Typography variant="subtitle1" gutterBottom>
