@@ -1,5 +1,4 @@
 .home {
-  background-color: #282c34;
   min-height: 100vh;
   min-height: 100vh;
   display: flex;
@@ -7,13 +6,16 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #ffffff;
+  color: #2D373D;
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url('../../../assets/home_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .profile_picture {
   background-color: #ffffff;
-  width: 200px;
-  height: 200px;
-  border: 8px solid green;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
+  margin: 24px 0;
 }

@@ -1,9 +1,10 @@
 import React from 'react';
 import './Menu.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const menu = () => (
   <div className="menu">
-    <h4>Menu</h4>
+    <FontAwesomeIcon icon="bars"/>
   </div>
 );
 

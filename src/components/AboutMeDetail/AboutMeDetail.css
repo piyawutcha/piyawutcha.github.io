@@ -1,6 +1,7 @@
 .detail {
   padding: 24px 48px;
   text-align: left;
+  color: #fff;
 }
 
 @media (min-width: 1024px) {
