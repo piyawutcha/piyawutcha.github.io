@@ -17,7 +17,7 @@ class Profile extends Component {
         <AboutMe/>
         <Education/>
         <WorkExp/>
-        <Achievement/>
+        {/* <Achievement/> */}
         <Portfolio/>
         <Contact/>
       </div>
