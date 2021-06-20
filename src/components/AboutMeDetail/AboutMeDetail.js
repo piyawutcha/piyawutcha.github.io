@@ -8,12 +8,12 @@ const about_me_detail = () => (
   <div className="detail">
     <Grid container spacing={4}>
       <Grid item xs={12} sm={6}>
-        <Typography variant="h2" gutterBottom>About Me</Typography>
+        <Typography variant="h2">About Me</Typography>
         <Typography variant="subtitle1" gutterBottom>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis porta quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean ultricies tortor at tempus fringilla.
+          I'm Benz, Thai software developer based in Sydney who has a Bachelor of Sciences in Computer Science from Mahidol University, Thailand and Master of IT from University of Technology Sydney, Australia.
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
-          Mauris interdum elit quam, quis ultricies lacus lacinia vitae. Phasellus in nibh cursus, hendrerit mi eu, auctor massa.
+          Now, I'm working with Sentral Education, a cloud-based school management platform trusted by more than 3,000 schools across Australia.
         </Typography>
       </Grid>
       <Grid item xs={12} sm={6}>
