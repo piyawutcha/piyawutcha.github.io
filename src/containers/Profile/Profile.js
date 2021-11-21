@@ -12,7 +12,7 @@ class Profile extends Component {
   render() {
     return (
       <div>
-        <Menu/>
+        {/* <Menu/> */}
         <Home/>
         <AboutMe/>
         <Education/>
