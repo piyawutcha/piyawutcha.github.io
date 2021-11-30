@@ -7,8 +7,8 @@ import mahidol_logo  from '../../assets/mahidol.png';
 
 const school = (props) => (
   <div className="school">
-    <Grid container justify="center" alignItems="center" spacing={2}>
-      <Grid item alignItems="center" xs={2}>
+    <Grid container justifyContent="center" alignItems="center" spacing={2}>
+      <Grid container item alignItems="center" xs={2}>
         <img alt="test" className="school_logo" src={props.abbr === 'MU' ? mahidol_logo : uts_logo} width="100%"/>
       </Grid>
       <Grid item xs={10} container direction="column" style={{paddingLeft: 24}}>
