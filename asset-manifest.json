@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/piyawutcha.github.io/static/css/main.bb977a2a.chunk.css",
-    "main.js": "/piyawutcha.github.io/static/js/main.da73243c.chunk.js",
-    "main.js.map": "/piyawutcha.github.io/static/js/main.da73243c.chunk.js.map",
-    "runtime~main.js": "/piyawutcha.github.io/static/js/runtime~main.dfb154ec.js",
-    "runtime~main.js.map": "/piyawutcha.github.io/static/js/runtime~main.dfb154ec.js.map",
-    "static/js/2.89f95c33.chunk.js": "/piyawutcha.github.io/static/js/2.89f95c33.chunk.js",
-    "static/js/2.89f95c33.chunk.js.map": "/piyawutcha.github.io/static/js/2.89f95c33.chunk.js.map",
-    "index.html": "/piyawutcha.github.io/index.html",
-    "precache-manifest.1d5b965b489a0de763a0bfc946078b10.js": "/piyawutcha.github.io/precache-manifest.1d5b965b489a0de763a0bfc946078b10.js",
-    "service-worker.js": "/piyawutcha.github.io/service-worker.js",
-    "static/css/main.bb977a2a.chunk.css.map": "/piyawutcha.github.io/static/css/main.bb977a2a.chunk.css.map",
-    "static/media/aboutme.jpg": "/piyawutcha.github.io/static/media/aboutme.bdeaea1f.jpg",
-    "static/media/Home.css": "/piyawutcha.github.io/static/media/home_bg.8f821198.jpg",
-    "static/media/ip.png": "/piyawutcha.github.io/static/media/ip.f0b142b6.png",
-    "static/media/mahidol.png": "/piyawutcha.github.io/static/media/mahidol.e18beefc.png",
-    "static/media/profile.jpg": "/piyawutcha.github.io/static/media/profile.9a6cdcc3.jpg",
-    "static/media/WorkExp.css": "/piyawutcha.github.io/static/media/workexp_bg.55e7f0f3.jpg"
+    "main.css": "./static/css/main.5e4f8822.chunk.css",
+    "main.js": "./static/js/main.904aab93.chunk.js",
+    "main.js.map": "./static/js/main.904aab93.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.7f419e25.js",
+    "runtime~main.js.map": "./static/js/runtime~main.7f419e25.js.map",
+    "static/js/2.89f95c33.chunk.js": "./static/js/2.89f95c33.chunk.js",
+    "static/js/2.89f95c33.chunk.js.map": "./static/js/2.89f95c33.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.9711afbfe3370718ccdb58496fcfded1.js": "./precache-manifest.9711afbfe3370718ccdb58496fcfded1.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.5e4f8822.chunk.css.map": "./static/css/main.5e4f8822.chunk.css.map",
+    "static/media/aboutme.jpg": "./static/media/aboutme.bdeaea1f.jpg",
+    "static/media/Home.css": "./static/media/home_bg.8f821198.jpg",
+    "static/media/ip.png": "./static/media/ip.f0b142b6.png",
+    "static/media/mahidol.png": "./static/media/mahidol.e18beefc.png",
+    "static/media/profile.jpg": "./static/media/profile.9a6cdcc3.jpg",
+    "static/media/WorkExp.css": "./static/media/workexp_bg.55e7f0f3.jpg"
   }
 }
