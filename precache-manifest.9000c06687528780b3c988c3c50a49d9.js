@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e2fe356bcd4babe5cd5959727db2c42",
+    "revision": "bbd6a5018a174b411bece03f1369856a",
     "url": "/piyawutcha.github.io/index.html"
   },
   {
-    "revision": "a55bc56753294e940783",
-    "url": "/piyawutcha.github.io/static/css/main.668219a8.chunk.css"
+    "revision": "56077bf841f71d630034",
+    "url": "/piyawutcha.github.io/static/css/main.bb977a2a.chunk.css"
   },
   {
-    "revision": "7d8eac9f7f93ada327ec",
-    "url": "/piyawutcha.github.io/static/js/2.47853b41.chunk.js"
+    "revision": "372b98323f4764f8cafa",
+    "url": "/piyawutcha.github.io/static/js/2.89f95c33.chunk.js"
   },
   {
-    "revision": "a55bc56753294e940783",
-    "url": "/piyawutcha.github.io/static/js/main.d378e455.chunk.js"
+    "revision": "56077bf841f71d630034",
+    "url": "/piyawutcha.github.io/static/js/main.35c249d6.chunk.js"
   },
   {
     "revision": "78a5ff4304c568d43614",
