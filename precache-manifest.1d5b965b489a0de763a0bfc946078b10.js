@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e5564120340aac1171cb439042d21938",
+    "revision": "06ad8df9f89ec719f2f41073bfb1710f",
     "url": "/piyawutcha.github.io/index.html"
   },
   {
-    "revision": "d568b4dc15def631eeb4",
+    "revision": "160fb2c5b52f3da26e90",
     "url": "/piyawutcha.github.io/static/css/main.bb977a2a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/piyawutcha.github.io/static/js/2.89f95c33.chunk.js"
   },
   {
-    "revision": "d568b4dc15def631eeb4",
-    "url": "/piyawutcha.github.io/static/js/main.7abb9b5c.chunk.js"
+    "revision": "160fb2c5b52f3da26e90",
+    "url": "/piyawutcha.github.io/static/js/main.da73243c.chunk.js"
   },
   {
     "revision": "78a5ff4304c568d43614",
