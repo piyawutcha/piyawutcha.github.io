@@ -10,16 +10,16 @@ class Contact extends Component {
         link : 'https://github.com/piyawutcha',
         icon : 'github',
       },
-      {
-        title : 'Instagram',
-        link : '',
-        icon : 'instagram',
-      },
-      {
-        title : 'Twitter',
-        link : '',
-        icon : 'twitter',
-      },
+      // {
+      //   title : 'Instagram',
+      //   link : '',
+      //   icon : 'instagram',
+      // },
+      // {
+      //   title : 'Twitter',
+      //   link : '',
+      //   icon : 'twitter',
+      // },
       {
         title : 'Linkedin',
         link : 'https://www.linkedin.com/in/piyawut-chantasrisawat-bab2953a/',
