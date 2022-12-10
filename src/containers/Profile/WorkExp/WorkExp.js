@@ -14,7 +14,7 @@ class WorkExp extends Component {
         position : 'Full Stack Developer',
         type : 'Full Time',
         period : 'Aug 2017 - Present',
-        description : 'Developed and enhanced cloud-based school management platform trusted by more than 2,800 schools across Australia, by using PHP, HTML5, jQuery and LESS',
+        description : 'Developed and enhanced SPaRO Platform, the School Planning and Reporting Online software platform to develop and deliver many School Excellence cycle components, including the Strategic Improvement Plan (SIP)<br/>Developed and enhanced cloud-based school management platform trusted by more than 2,800 schools across Australia, by using PHP, HTML5, jQuery and LESS',
       },
       {
         id : 2,
