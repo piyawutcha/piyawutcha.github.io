@@ -26,8 +26,8 @@ const work = (props) => (
       <Typography variant="body2"gutterBottom>
         {props.period}
       </Typography>
-      <Typography variant="body2">
-        {props.description}
+      <Typography variant="body2" dangerouslySetInnerHTML={{__html: props.description}}>
+        {/* {props.description} */}
       </Typography>
     </div>
     : '' }
