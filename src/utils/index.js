@@ -1,3 +1,5 @@
+import { icon } from '@fortawesome/fontawesome-svg-core'
+
 export const educations = [
   {
     id: 1,
@@ -14,5 +16,20 @@ export const educations = [
     major: 'Computer Science',
     year: '2010-2013',
     logo: require('../assets/mahidol.png'),
+  },
+]
+
+export const contacts = [
+  {
+    id: 1,
+    name: 'github',
+    url: 'https://github.com/piyawutcha',
+    icon: ['fab', 'github'],
+  },
+  {
+    id: 2,
+    name: 'linkedin',
+    url: 'http://www.linkedin.com/in/piyawut-benz/',
+    icon: ['fab', 'linkedin'],
   },
 ]
