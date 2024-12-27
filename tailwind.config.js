@@ -11,7 +11,7 @@ module.exports = {
         'cover': "linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),url('./assets/home_bg.jpg')",
       },
       colors: {
-
+        'main': "#282c34",
       },
       animation: {
 
