@@ -3,7 +3,7 @@ import profile_picture from '../assets/profile.jpg'
 
 const CoverSection = () => {
   return (
-    <section className="w-screen h-screen bg-cover flex justify-center items-center">
+    <section className="w-full h-screen bg-cover bg-no-repeat flex justify-center items-center">
       <div className="flex flex-col justify-center items-center">
         <div>
           <img src={profile_picture} alt="piyawutcha.github.io" className="w-52 rounded-full" />
