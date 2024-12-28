@@ -19,6 +19,36 @@ export const educations = [
   },
 ]
 
+export const experiences = [
+  {
+    id: 1,
+    name: 'Sentral Education',
+    location: 'Sydney, Australia',
+    position: 'Software Engineer',
+    duration: 'Aug 2017 - Present',
+    description: [
+      `Developed and enhanced SPaRO Platform, the School Planning and Reporting Online
+      (SPaRO) software platform to develop and deliver many School Excellence cycle
+      components by using AngularJS, Vanilla JS, HTML, SCSS, AWS, Node.js and PHP`,
+      `Developed and enhanced cloud-based school management platform trusted by more
+      than 2,500 schools across Australia, by using HTML, jQuery, LESS and PHP`,
+    ],
+    logo: require('../assets/works/sentral.png'),
+  },
+  {
+    id: 2,
+    name: 'The IP Academy Pty Ltd',
+    location: 'Sydney, Australia',
+    position: 'Mobile Application Developer',
+    duration: 'Sep 2015 - Jan 2017',
+    description: [`Developed a greenfield iOS and Android Applications, "Suretek Project", that allows the
+                  customer to configure video surveillances (MOBOTIX devices), add the devices into the
+                  shopping cart, and export the ready-to-quote PDF for purchasing using Ionic
+                  Framework and jsPDF.`],
+    logo: require('../assets/works/ip.png'),
+  }
+]
+
 export const contacts = [
   {
     id: 1,
