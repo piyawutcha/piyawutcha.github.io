@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'cover': "linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),url('./assets/home_bg.jpg')",
+        'experience': "linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),url('./assets/workexp_bg.jpg')",
       },
       colors: {
         'main': "#282c34",

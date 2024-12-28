@@ -15,3 +15,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 } */
+
+.exp_details {
+  /* width: calc(50% - 220px); */
+  width: calc(50% - 60px);
+}
+.exp_details_left:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 100%;
+  right: -18px;
+  top: 24px;
+  border: 12px solid transparent;
+  border-top: none;
+  transform: rotate(90deg);
+  border-bottom-color: #282c34;
+  filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+}
+
+.exp_details_right:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 100%;
+  left: -18px;
+  top: 24px;
+  border: 12px solid transparent;
+  border-top: none;
+  transform: rotate(270deg);
+
+  border-bottom-color: #282c34;
+  filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+}
