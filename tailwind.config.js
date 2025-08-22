@@ -12,6 +12,8 @@ module.exports = {
       colors: {
         'main': "#282c34",
         'contact': "#ec0856",
+        'dark': '#000000',
+        'light': '#ffffff',
       },
       animation: {
 

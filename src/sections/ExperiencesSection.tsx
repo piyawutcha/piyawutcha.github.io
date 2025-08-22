@@ -5,10 +5,10 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 
 const ExperiencesSection = () => {
   return (
-    <section className="bg-experience bg-cover bg-no-repeat py-10 flex justify-center items-center">
+    <section id="experiences" className="bg-experience bg-cover bg-no-repeat py-10 flex justify-center items-center">
       <div className="w-3/4">
         <div className="text-white text-6xl font-extralight">
-          Experience
+          Experiences
         </div>
         <div className="text-white w-full mt-4">
           {

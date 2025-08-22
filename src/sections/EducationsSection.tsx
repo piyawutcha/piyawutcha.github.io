@@ -3,10 +3,10 @@ import { educations } from '../utils/index'
 
 const EducationsSection = () => {
   return (
-    <section className="bg-white py-10 flex justify-center items-center">
+    <section id="educations" className="bg-white py-10 flex justify-center items-center">
       <div className="w-3/4 flex flex-col">
         <div className="text-6xl font-extralight">
-          Education
+          Educations
         </div>
         <div className="mt-6">
           {
