@@ -33,7 +33,7 @@ export const experiences = [
       `Developed and enhanced cloud-based school management platform trusted by more
       than 2,500 schools across Australia, by using HTML, jQuery, LESS and PHP`,
     ],
-    logo: require('../assets/works/sentral.png'),
+    logo: require('../assets/sentral.png'),
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ export const experiences = [
                   customer to configure video surveillances (MOBOTIX devices), add the devices into the
                   shopping cart, and export the ready-to-quote PDF for purchasing using Ionic
                   Framework and jsPDF.`],
-    logo: require('../assets/works/ip.png'),
+    logo: require('../assets/ip.png'),
   }
 ]
 
