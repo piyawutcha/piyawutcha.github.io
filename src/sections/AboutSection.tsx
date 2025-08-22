@@ -2,7 +2,7 @@ import about_img from '../assets/aboutme.jpg'
 
 const AboutSection = () => {
   return (
-    <section className="bg-main py-10 flex justify-center items-center">
+    <section id="about" className="bg-main py-10 flex justify-center items-center">
       <div className="flex justify-between w-3/4 gap-10">
         <div className="w-1/2 text-white">
           <div className="text-6xl font-extralight">About</div>

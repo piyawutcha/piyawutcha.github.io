@@ -4,10 +4,12 @@ import AboutSection from './sections/AboutSection';
 import EducationsSection from './sections/EducationsSection';
 import ExperiencesSection from './sections/ExperiencesSection';
 import ContactSection from './sections/ContactSection';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <CoverSection />
       <AboutSection />
       <EducationsSection />

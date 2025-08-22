@@ -1,9 +1,8 @@
 import profile_picture from '../assets/profile.jpg';
-import '../assets/home_bg.jpg';
 
 const CoverSection = () => {
   return (
-    <section className="w-full h-screen bg-cover bg-no-repeat flex justify-center items-center">
+    <section id="cover" className="w-full h-screen bg-cover bg-no-repeat flex justify-center items-center">
       <div className="flex flex-col justify-center items-center">
         <div>
           <img src={profile_picture} alt="piyawutcha.github.io" className="w-52 rounded-full" />
