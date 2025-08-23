@@ -11,9 +11,10 @@ module.exports = {
       },
       colors: {
         'main': "#282c34",
-        'contact': "#ec0856",
+        'contact': "#facc15",
         'dark': '#000000',
         'light': '#ffffff',
+        'hover': '#facc15',
       },
       animation: {
 

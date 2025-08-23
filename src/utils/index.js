@@ -27,11 +27,15 @@ export const experiences = [
     position: 'Software Engineer',
     duration: 'Aug 2017 - Present',
     description: [
-      `Developed and enhanced SPaRO Platform, the School Planning and Reporting Online
-      (SPaRO) software platform to develop and deliver many School Excellence cycle
-      components by using AngularJS, Vanilla JS, HTML, SCSS, AWS, Node.js and PHP`,
-      `Developed and enhanced cloud-based school management platform trusted by more
-      than 2,500 schools across Australia, by using HTML, jQuery, LESS and PHP`,
+      `Led development and enhancement of SPaRO, a web-based planning/reporting
+      platform for the NSW Department of Education using AngularJS, Vanilla JS, HTML,
+      SCSS, Node.js, PHP and AWS`,
+      `Collaborated directly with stakeholders (NSW Department of Education) to define
+      product goals, gather requirements and align project outcome with user needs and
+      goals for SPaRO application`,
+      `Engineered and maintained core features for Sentral, a cloud-based school
+      management system widely used and trusted by thousands of schools in Australia by
+      using HTML, jQuery, LESS and PHP`
     ],
     logo: require('../assets/sentral.png'),
   },
@@ -41,10 +45,9 @@ export const experiences = [
     location: 'Sydney, Australia',
     position: 'Mobile Application Developer',
     duration: 'Sep 2015 - Jan 2017',
-    description: [`Developed a greenfield iOS and Android Applications, "Suretek Project", that allows the
-                  customer to configure video surveillances (MOBOTIX devices), add the devices into the
-                  shopping cart, and export the ready-to-quote PDF for purchasing using Ionic
-                  Framework and jsPDF.`],
+    description: [`Designed and developed a Greenfield mobile application, Suretek Project, on iOS and
+                  Android using Ionic Framework, enabling customers to configure MOBOTIX video
+                  surveillance devices and generate ready-to-quote PDF proposals via jsPDF integration`],
     logo: require('../assets/ip.png'),
   }
 ]
