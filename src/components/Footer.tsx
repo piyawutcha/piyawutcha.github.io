@@ -5,7 +5,7 @@ import { contacts } from '../utils/index';
 const Footer = () => {
   return (
     <footer className="bg-contact w-full flex items-center justify-between px-4">
-      <div className="w-52 text-sm font-light">
+      <div className="w-52 text-sm text-left font-light">
         By Piyawut C.
       </div>
       <div>

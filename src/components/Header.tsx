@@ -22,11 +22,11 @@ const Header = () => {
     <header className="w-[98%] p-2 px-5 flex items-center justify-between fixed top-5 mx-[1%] rounded-full bg-gray-600/60 text-dark z-50 animate-rolling">
       <div>
         <a href="/">
-          <div className="flex items-center">
+          <div className="flex items-center group">
             <div className="w-12 rounded-full overflow-hidden">
               <img src={logo_img} alt="piyawutcha.github.io" className="w-full h-auto rounded-full" />
             </div>
-            <div className="font-semibold text-2xl ml-1">
+            <div className="font-semibold text-2xl ml-1 bg-gradient-to-r from-yellow-400 to-yellow-400 bg-[length:0px_3px] group-hover:bg-[length:100%_3px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500">
               Piyawut C.
             </div>
           </div>
