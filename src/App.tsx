@@ -3,8 +3,8 @@ import CoverSection from './sections/CoverSection';
 import AboutSection from './sections/AboutSection';
 import EducationsSection from './sections/EducationsSection';
 import ExperiencesSection from './sections/ExperiencesSection';
-import ContactSection from './sections/ContactSection';
-import Header from './components/Header/Header';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <AboutSection />
       <EducationsSection />
       <ExperiencesSection />
-      <ContactSection />
+      <Footer />
     </div>
   );
 }

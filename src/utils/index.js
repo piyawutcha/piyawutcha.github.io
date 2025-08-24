@@ -62,7 +62,25 @@ export const contacts = [
   {
     id: 2,
     name: 'linkedin',
-    url: 'http://www.linkedin.com/in/piyawut-benz/',
+    url: 'https://www.linkedin.com/in/piyawut-benz/',
     icon: ['fab', 'linkedin'],
   },
+  {
+    id: 3,
+    name: 'facebook',
+    url: 'https://www.facebook.com',
+    icon: ['fab', 'facebook'],
+  },
+  {
+    id: 4,
+    name: 'youtube',
+    url: 'https://www.youtube.com',
+    icon: ['fab', 'youtube'],
+  },
+  {
+    id: 5,
+    name: 'x',
+    url: 'https://www.twitter.com',
+    icon: ['fab', 'twitter'],
+  }
 ]
