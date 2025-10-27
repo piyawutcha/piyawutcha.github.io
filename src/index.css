@@ -1,6 +1,26 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* Tailwind v4 theme tokens (colors, images, etc.) */
+@theme {
+  --color-main: #282c34;
+  --color-contact: #facc15;
+  --color-dark: #000000;
+  --color-light: #ffffff;
+  --color-hover: #facc15;
+  --color-primary: #facc15;
+
+  /* Background images */
+  --background-image-experience: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('./assets/workexp_bg.jpg');
+  /* Cover background image (renamed to avoid conflict with Tailwind's bg-cover size utility) */
+  --background-image-cover-image: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url('./assets/home_bg.jpg');
+}
+
+/* Custom utilities for Tailwind v4+ */
+@layer utilities {
+  .text-shadow-default {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+}
 
 .exp_details {
   /* width: calc(50% - 220px); */
@@ -35,4 +55,44 @@
 
   border-bottom-color: #282c34;
   filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+}
+
+@media screen and (max-width: 768px) {
+  .exp_details {
+    width: calc(50% - 60px);
+  }
+
+  .exp_details_left:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 100%;
+    left: -18px;
+    top: 24px;
+    border: 12px solid transparent;
+    border-top: none;
+    transform: rotate(270deg);
+
+    border-bottom-color: #282c34;
+    filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+  }
+
+
+.exp_details_right:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 100%;
+    left: -18px;
+    top: 24px;
+    border: 12px solid transparent;
+    border-top: none;
+    transform: rotate(270deg);
+
+    border-bottom-color: #282c34;
+    filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+  }
+  
 }

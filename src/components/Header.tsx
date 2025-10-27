@@ -1,14 +1,21 @@
+import { useState } from 'react';
 import logo_img from '../assets/logo.png';
 
 const Header = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const handleNavClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();
     const targetId = event.currentTarget.getAttribute('data-target-id');
     if (targetId) {
       scrollToSectionWithOffset(targetId, 100);
+      setIsMobileMenuOpen(false); // Close mobile menu after navigation
     }
   }
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
 
   const scrollToSectionWithOffset = (elementId: string, offset = 100) => {
     const el = document.getElementById(elementId);
@@ -32,14 +39,41 @@ const Header = () => {
           </div>
         </a>
       </div>
-      <div>
+      
+      {/* Desktop Navigation - hidden on mobile */}
+      <div className="hidden md:block">
         <nav>
-          <span onClick={handleNavClick} data-target-id="cover" className="mr-6 font-semibold cursor-pointer hover:text-light">Home</span>
-          <span onClick={handleNavClick} data-target-id="about" className="mr-6 font-semibold cursor-pointer hover:text-light">About</span>
-          <span onClick={handleNavClick} data-target-id="educations" className="mr-6 font-semibold cursor-pointer hover:text-light">Educations</span>
-          <span onClick={handleNavClick} data-target-id="experiences" className="mr-6 font-semibold cursor-pointer hover:text-light">Experiences</span>
+          <span onClick={handleNavClick} data-target-id="cover" className="mr-6 font-semibold cursor-pointer hover:text-primary">Home</span>
+          <span onClick={handleNavClick} data-target-id="about" className="mr-6 font-semibold cursor-pointer hover:text-primary">About</span>
+          <span onClick={handleNavClick} data-target-id="educations" className="mr-6 font-semibold cursor-pointer hover:text-primary">Educations</span>
+          <span onClick={handleNavClick} data-target-id="experiences" className="mr-6 font-semibold cursor-pointer hover:text-primary">Experiences</span>
         </nav>
       </div>
+
+      {/* Hamburger Menu Button - visible only on mobile */}
+      <div className="md:hidden">
+        <button 
+          onClick={toggleMobileMenu}
+          className="flex flex-col justify-center items-center w-8 h-8 focus:outline-none"
+          aria-label="Toggle menu"
+        >
+          <span className={`block w-6 h-0.5 bg-dark mb-1 transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}></span>
+          <span className={`block w-6 h-0.5 bg-dark mb-1 transition-all duration-300 ${isMobileMenuOpen ? 'opacity-0' : ''}`}></span>
+          <span className={`block w-6 h-0.5 bg-dark transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
+        </button>
+      </div>
+
+      {/* Mobile Menu Dropdown */}
+      {isMobileMenuOpen && (
+        <div className="absolute top-full right-0 mt-2 w-48 bg-gray-800 rounded-lg shadow-lg md:hidden">
+          <nav className="flex flex-col p-4">
+            <span onClick={handleNavClick} data-target-id="cover" className="py-3 font-semibold cursor-pointer hover:text-primary border-b border-gray-700 text-light">Home</span>
+            <span onClick={handleNavClick} data-target-id="about" className="py-3 font-semibold cursor-pointer hover:text-primary border-b border-gray-700 text-light">About</span>
+            <span onClick={handleNavClick} data-target-id="educations" className="py-3 font-semibold cursor-pointer hover:text-primary border-b border-gray-700 text-light">Educations</span>
+            <span onClick={handleNavClick} data-target-id="experiences" className="py-3 font-semibold cursor-pointer hover:text-primary text-light">Experiences</span>
+          </nav>
+        </div>
+      )}
     </header>
   )
 }

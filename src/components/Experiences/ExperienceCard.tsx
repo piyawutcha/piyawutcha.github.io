@@ -16,20 +16,20 @@ const ExperienceCard = (props: ExperienceProps) => {
 
   let left = experience.id % 2 != 0;
   return (
-    <div className="text-center h-52 z-0 relative">
+    <div className="text-center h-100 md:h-52 z-0 relative">
 
-      <div className={"exp_details absolute bg-main rounded-xl p-4 text-left top-2 " + (left ? "exp_details_left" : "right-0 exp_details_right")}>
-        <div className="">
+      <div className={"w-auto md:w-[calc(50%-60px)] absolute bg-main rounded-xl p-4 text-left top-2 ml-24 md:ml-0 " + (left ? "exp_details_left" : "md:right-0 exp_details_right")}>
+        <div className="text-primary">
           <span className="font-semibold">{experience.name}</span><span className="text-sm italic"> - {experience.location}</span>
         </div>
-        <div className="mt-2 text-sm">
+        <div className="mt-2 text-sm font-medium text-primary">
           {experience.position}
         </div>
-        <div className="mt-2 text-sm">
+        <div className="mt-2 text-sm font-light">
           {experience.duration}
         </div>
 
-        <div className="mt-2 text-xs">
+        <div className="mt-2 text-xs font-extralight">
           <ul>
           {
             experience.description.map((desc, index) => {
@@ -42,12 +42,12 @@ const ExperienceCard = (props: ExperienceProps) => {
         </div>
       </div>
 
-      <div className="w-full flex justify-center items-center">
-        <div className="w-20 h-20 bg-main rounded-full flex justify-center items-center border-solid border-[2px] border-white mx-4 z-20">
+      <div className="w-full flex md:justify-center items-center">
+        <div className="w-20 h-20 bg-main rounded-full flex justify-center items-center border-solid border-[2px] border-white md:mx-4 z-20">
           <img src={experience.logo} alt={experience.name} className="w-3/4 rounded-full" />
         </div>
       </div>
-      <div className="w-[5px] h-4/5 bg-white relative m-auto top-[-20px] z-10"></div>
+      <div className="w-[5px] h-full bg-white relative ml-9 md:m-auto top-[-20px] z-10"></div>
     </div>
   )
 }

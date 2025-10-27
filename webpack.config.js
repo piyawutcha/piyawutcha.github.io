@@ -34,7 +34,10 @@ module.exports = {
     }),
   ],
   devServer: {
-    static: path.join(__dirname, 'dist'),
+    static: [
+      path.join(__dirname, 'dist'),
+      path.join(__dirname, 'public'), // serve public assets like manifest.json
+    ],
     compress: true,
     port: 9000,
     open: true,

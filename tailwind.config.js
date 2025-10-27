@@ -1,32 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{html,js,ts,jsx,tsx}", // Adjust paths as needed
-  ],
-  theme: {
-    extend: {
-      backgroundImage: {
-        'cover': "linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),url('./assets/home_bg.jpg')",
-        'experience': "linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),url('./assets/workexp_bg.jpg')",
-      },
-      colors: {
-        'main': "#282c34",
-        'contact': "#facc15",
-        'dark': '#000000',
-        'light': '#ffffff',
-        'hover': '#facc15',
-      },
-      animation: {
-
-      },
-      keyframes: {
-
-      },
-      screens: {
-
-      }
-    },
-  },
-  plugins: [],
-}
+  // Tailwind CSS v4+ uses zero-config by default.
+  // Keep this file minimal; move custom utilities/tokens into CSS via @import "tailwindcss" and @layer/@theme.
+};
 
